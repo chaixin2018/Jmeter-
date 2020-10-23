@@ -1,0 +1,11 @@
+ALTER TABLE `bpm_inst_form`  ADD INDEX `idx_instform_defid` (`DEF_ID_`) ;
+ALTER TABLE `bpm_inst_form`  ADD INDEX `idx_instform_instid` (`INST_ID_`) ;
+ALTER TABLE `bpm_inst_form`  ADD INDEX `idx_instform_nodeid` (`NODE_ID_`) ;
+ALTER TABLE `bpm_check_opinion_hi`  ADD INDEX `idx_checkopinionhi_procinstid` (`PROC_INST_ID_`) ;
+ALTER TABLE `bpm_task_follow`  ADD INDEX `idx_taskfollow_proinstid` (`PRO_INST_`) ;
+ALTER TABLE `bpm_task_follow`  ADD INDEX `idx_taskfollow_creatorid` (`CREATOR_ID_`) ;
+ALTER TABLE `bpm_task_signdata` ADD INDEX `idx_task_signdata_inst_id` (`INST_ID_`) ;
+ALTER TABLE `bpm_task_signdata`  ADD INDEX `idx_tasksigndata_executeid` (`execute_id_`) ;
+ALTER TABLE `bpm_task_signdata`  ADD INDEX `idx_tasksigndata_nodeid` (`node_id_`) ;
+ALTER TABLE `bpm_bus_link`  ADD INDEX `idx_buslink_busstr` (`businesskey_str_`) ;
+ALTER TABLE `act_ru_execution`  ADD INDEX `idx_ruexecution_instid` (`PROC_INST_ID_`) ;
